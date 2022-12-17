@@ -31,9 +31,9 @@ if ($_FILES['avatar']) {
                 "url" => $server_url . "/" . $upload_name
             );
 
-            $host = "localhost";
+            $host = "localhost:3310";
             $user = "root";
-            $password = "mysql";
+            $password = "";
             $dbname = "reactjs_axios_fileupload";
 
             $con = mysqli_connect($host, $user, $password, $dbname);
